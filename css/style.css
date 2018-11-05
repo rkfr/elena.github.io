@@ -181,16 +181,15 @@
 
 .section-1_list {
 	display: flex;
-	justify-content: space-between;
 	width: 100%;
-	max-width: 620px;
+	max-width: 600px;
 	margin: 0 auto;
-	padding: 65px 10px 77px 10px;
+	padding: 65px 0 77px 0;
 	text-align: left;
 }
 
 .section-1_item {
-	margin-left: 7%;
+	margin-left: 35px;
 }
 
 .section-1_image-wrap {
@@ -198,22 +197,19 @@
 	max-width: 268px;
 	height: 167px;
 	overflow: hidden;
+	position: relative;
 }
 
 .section-1_image-1 {
-	width: 186.51%;
-	height: auto;
-	position: relative;
+	position: absolute;
 	left: -150px;
 	top: -75px;
 }
 
 .section-1_image-2 {
-	position: relative;
+	position: absolute;
 	left: -170px;
 	top: -50px;
-	width: 186.51%;
-	height: auto;
 }
 
 
