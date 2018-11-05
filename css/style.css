@@ -189,11 +189,12 @@
 }
 
 .section-1_item {
-	margin-left: 30px;
+	margin-left: 35px;
 }
 
 .section-1_image-wrap {
-	width: 268px;
+	width: 100%;
+	max-width: 268px;
 	height: 167px;
 	overflow: hidden;
 	position: relative;
