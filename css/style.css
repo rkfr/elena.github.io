@@ -198,19 +198,18 @@
 	max-width: 268px;
 	height: 167px;
 	overflow: hidden;
-	position: relative;
 }
 
 .section-1_image-1 {
 	width: 186.51%;
 	height: auto;
-	position: absolute;
+	position: relative;
 	left: -150px;
 	top: -75px;
 }
 
 .section-1_image-2 {
-	position: absolute;
+	position: relative;
 	left: -170px;
 	top: -50px;
 	width: 186.51%;
@@ -256,10 +255,10 @@
 
 .section-item {
 	width: 100%;
-	max-width: 620px;
+	max-width: 600px;
 	text-align: left;
 	margin: 0 auto;
-	padding: 60px 10px 65px 10px;
+	padding: 60px 0 65px 0;
 }
 
 .section-2_title {
