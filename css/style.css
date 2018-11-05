@@ -184,7 +184,7 @@
 	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
-	padding: 65px 0 77px 0;
+	padding: 65px 10px 77px 10px;
 	text-align: left;
 }
 
@@ -194,7 +194,7 @@
 }
 
 .section-1_item:last-child {
-	margin-left: 3%;
+	margin-left: 2%;
 }
 
 .section-1_image-wrap {
