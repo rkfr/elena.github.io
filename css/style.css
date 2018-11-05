@@ -189,27 +189,35 @@
 }
 
 .section-1_item {
-	margin-left: 35px;
+	width: 100%;
+	max-width: 300px;
+}
+
+.section-1_item:last-child {
+	margin-left: 3%;
 }
 
 .section-1_image-wrap {
 	width: 100%;
-	max-width: 268px;
+	max-width: 89.33%;
 	height: 167px;
 	overflow: hidden;
-	position: relative;
 }
 
 .section-1_image-1 {
-	position: absolute;
+	position: relative;
 	left: -150px;
 	top: -75px;
+	width: 192%;
+	height: auto;
 }
 
 .section-1_image-2 {
-	position: absolute;
+	position: relative;
 	left: -170px;
 	top: -50px;
+	width: 190%;
+	height: auto;
 }
 
 
