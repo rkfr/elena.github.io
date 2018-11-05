@@ -184,7 +184,7 @@
 	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
-	padding: 65px 10px 77px 10px;
+	padding: 65px 0 77px 10px;
 	text-align: left;
 }
 
@@ -199,9 +199,11 @@
 
 .section-1_image-wrap {
 	width: 100%;
+	min-width: 199px;
 	max-width: 89.33%;
 	height: 167px;
 	overflow: hidden;
+	margin: 0;
 }
 
 .section-1_image-1 {
