@@ -19,7 +19,68 @@
 	}
 
 	.section-1_item:last-child {
-	margin-left: 0;
-}
+		margin-left: 0;
+	}
 
+	.section-3_list {
+		display: flex;
+		text-align: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.section-3_item {
+		margin-bottom: 50px;
+	}
+
+	.section-3_img {
+		max-width: 231px;
+		width: 100%;
+		height: auto;
+	}
+
+	.section-4_list {
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+	
+
+	.section-5_list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.footer {
+		padding-bottom: 50px;
+	}
+
+	.footer-title {
+		margin-bottom: 20px;
+	}
+
+	.footer-logo-list {
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.logo-1,
+	.logo-2,
+	.logo-3 {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.footer-copyright {
+		text-align: center;
+		display: block;
+	}
+
+	.footer-copyright_icons {
+		margin: 20px auto;
+	}
 }
