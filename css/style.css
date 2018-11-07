@@ -284,6 +284,11 @@
 	color: #384048;
 }
 
+.section-2_title:before {
+	content: url(../img/global_icons/ico-circle.png);
+	margin-right: 10px;
+}
+
 .section-2_text {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
@@ -385,6 +390,16 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 45px;
+}
+
+.section-4_title-1:before {
+	content: url(../img/global_icons/ico-paper-airplane.png);
+	margin-right: 10px;
+}
+
+.section-4_title-2:before {
+	content: url(../img/global_icons/ico-pencil.png);
+	margin-right: 10px;
 }
 
 .section-4_text {
