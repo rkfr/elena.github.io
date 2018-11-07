@@ -8,6 +8,12 @@
 
 /*--section-2--*/
 
+/*--section-3--*/
+
+/*--section-4--*/
+
+/*--section-5--*/
+
 /*-------------*/
 
 
@@ -298,11 +304,271 @@
 	color: #fff;
 }
 
+/*--section-3--*/
 
-.test {
+.section-3 {
+	background: #f5f5f5;
+}
+
+.section-3_list {
 	margin: 0 auto;
-	max-width: 600px;
 	width: 100%;
-	height: 100px;
-	background: red;
+	max-width: 600px;
+	padding: 60px 0 69px 0;
+}
+
+.section-3_list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.section-3_img {
+	max-width: 181px;
+	width: 100%;
+	height: auto;
+}
+
+.section-3_title {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	color: #384048;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 42px 0 47px 0;
+}
+
+.section-3_text {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #787b80;
+	margin-bottom: 27px;
+}
+
+.section-3_link {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #50c3af;
+	text-decoration: none;
+	font-weight: 570;
+}
+
+.section-3_link:hover {
+	color: orange;
+}
+
+/*--section-4--*/
+
+.section-4 {
+	background: #eeeeef;
+}
+
+.section-4_list {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 62px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-4_item {
+	width: 100%;
+	max-width: 250px;
+}
+
+.section-4_title {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	color: #384048;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.section-4_text {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #787b80;
+	margin-bottom: 36px;
+}
+
+.section-4_link {
+	padding: 12px 17px;
+	border-radius: 90px;
+	background: #50c3af;
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+.section-4_link:hover {
+	background: orange;
+	cursor: pointer;
+}
+
+/*--section-5--*/
+
+.section-5 {
+	background: #f5f5f5;
+}
+
+.section-5_list {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column wrap
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 52px 0 63px 0;
+}
+
+.section-5_photo {
+	max-width: 264px;
+	width: 100%;
+	max-height: 210px;
+	height: auto;
+}
+
+.section-5_item {
+	width: 100%;
+	max-width: 292px;
+}
+
+.section-5_title {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	color: #293139;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 54px;
+}
+
+.section-5_text {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #787b80;
+	margin-bottom: 28px;
+}
+
+.section-5_link {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #f5f5f5;
+	background: #d2d5da;
+	padding: 12px 17px;
+	border-radius: 90px;
+	text-decoration: none;
+}
+
+.section-5_link:hover {
+	background: orange;
+	color: #fff;
+}
+
+/*--footer--*/
+
+.footer-wrapper {
+	background: #50c3af;
+}
+
+.footer {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 50px 0 68px 0;
+}
+
+.footer-title {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 61px;
+}
+
+.logo-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	color: #fff;
+}
+
+.logo-1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 26px;
+}
+
+.logo-2 {
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.logo-3 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 26px;
+}
+
+.logo-4 {
+	font-size: 26px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.footer-copyright-wrap {
+	background: #f5f5f5;
+}
+
+.footer-copyright {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.copyright-elena,
+.copyright-elena-text {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+}
+
+.copyright-elena {
+	color: #787b80;
+}
+
+.copyright-elena-text {
+	color: #aaacaf;
+}
+
+.footer-copyright_icons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 80px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-ico-1,
+.footer-ico-2,
+.footer-ico-3 {
+	height: 20px;
+	width: 20px;
+	display: block;
+}
+
+.footer-ico-1 {
+	background: url(../img/footer/google-ico-24.png) no-repeat center;
+}
+
+.footer-ico-2 {
+	background: url(../img/footer/facebook-ico-24.png) no-repeat center;
+}
+
+.footer-ico-3 {
+	background: url(../img/footer/twitter-ico-24.png) no-repeat center;
 }
