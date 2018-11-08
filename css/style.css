@@ -259,6 +259,7 @@ img {
 	top: -75px;
 	width: 192%;
 	height: auto;
+	transition: 2s;
 }
 
 .section-1_image-2 {
@@ -267,6 +268,7 @@ img {
 	top: -50px;
 	width: 190%;
 	height: auto;
+	transition: 2s;
 }
 
 
@@ -392,6 +394,7 @@ img {
 	max-width: 181px;
 	width: 100%;
 	height: auto;
+	transition: 1.5s;
 }
 
 .section-3_title {
@@ -517,10 +520,12 @@ img {
 }
 
 .section-5_photo {
+	display: block;
 	max-width: 264px;
+	min-width: 214px;
 	width: 100%;
-	max-height: 210px;
 	height: auto;
+	transition: 1.5s;
 }
 
 .section-5_item {

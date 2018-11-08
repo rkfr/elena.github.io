@@ -1,3 +1,23 @@
+@media only screen and (min-width: 540px) {
+	
+	.section-3_img:hover {
+		max-width: 198px;
+	}
+
+	.section-5_photo:hover {
+		max-width: 294px;
+	}
+
+	.section-1_image-2:hover {
+		width: 170%;
+	}
+
+	.section-1_image-1:hover {
+		left: -110px;
+		top: -95px;
+	}
+}
+
 @media only screen and (max-width: 540px) {
 	.header-text_subtitle:before,
 	.header-text_subtitle:after,
