@@ -383,9 +383,6 @@ img {
 	width: 100%;
 	max-width: 600px;
 	padding: 60px 0 69px 0;
-}
-
-.section-3_list {
 	display: flex;
 	justify-content: space-around;
 }
@@ -394,7 +391,7 @@ img {
 	max-width: 181px;
 	width: 100%;
 	height: auto;
-	transition: 1.5s;
+	transition: 0.55s;
 }
 
 .section-3_title {
