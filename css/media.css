@@ -1,3 +1,16 @@
+@media only screen and (max-width: 528px) {
+	.header-text_subtitle:before,
+	.header-text_subtitle:after,
+	.features-item_title:after,
+	.footer-title:after,
+	.section-4_title:after,
+	.section-3_title:after,
+	.section-2_title:after,
+	.section-1_title:after {
+		display: none;
+	}
+} 
+
 @media only screen and (max-width: 480px) {
 	
 	img {

@@ -107,6 +107,29 @@ img {
 .header-text_subtitle {
 	font-size: 15px;
 	font-family: 'PT Sans', sans-serif;
+	position: relative;
+}
+
+.header-text_subtitle:before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 15%;
+	border: 1px solid #506a70;
+	top: 7px;
+	left: 70px;
+	opacity: 0.5;
+}
+
+.header-text_subtitle:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 15%;
+	border: 1px solid #506a70;
+	top: 7px;
+	right: 70px;
+	opacity: 0.5;
 }
 
 .header-general-button {
@@ -177,6 +200,18 @@ img {
 	margin: 32px 0 48px 0;
 	text-transform: uppercase;
 	color: #384038;
+	position: relative;
+}
+
+.features-item_title:after {
+	content: '';
+	position: absolute;
+	top: 40px;
+	left: 28px;
+	display: block;
+	width: 70%;
+	border: 1px solid #e2e3e4;
+	opacity: 0.5;
 }
 
 .features-item_text {
@@ -242,6 +277,16 @@ img {
 	margin: 42px 0 56px 0;
 	text-transform: uppercase;
 	color: #384048;
+	position: relative;
+}
+
+.section-1_title:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 90%;
+	top: 40px;
+	border: 1px solid #e2e3e4;
 }
 
 .section-1-text {
@@ -286,11 +331,21 @@ img {
 	margin-bottom: 46px;
 	text-transform: uppercase;
 	color: #384048;
+	position: relative;
 }
 
 .section-2_title:before {
 	content: url(../img/global_icons/ico-circle.png);
 	margin-right: 10px;
+}
+
+.section-2_title:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 60%;
+	top: 45px;
+	border: 1px solid #e2e3e4;
 }
 
 .section-2_text {
@@ -346,6 +401,16 @@ img {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin: 42px 0 47px 0;
+	position: relative;
+}
+
+.section-3_title:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 90%;
+	top: 40px;
+	border: 1px solid #e2e3e4;
 }
 
 .section-3_text {
@@ -394,6 +459,16 @@ img {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 45px;
+	position: relative;
+}
+
+.section-4_title:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 100%;
+	top: 45px;
+	border: 1px solid #e2e3e4;
 }
 
 .section-4_title-1:before {
@@ -461,6 +536,16 @@ img {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 54px;
+	position: relative;
+}
+
+.section-5_title:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 90%;
+	top: 45px;
+	border: 1px solid #e2e3e4;
 }
 
 .section-5_text {
@@ -506,6 +591,22 @@ img {
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 61px;
+	position: relative;
+}
+
+.footer-title:before {
+	content: url(../img/footer/star-24.png);
+	margin-right: 10px;
+}
+
+.footer-title:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 42%;
+	left: 160px;
+	top: 40px;
+	border: 1px solid #61c8b6;
 }
 
 .footer-logo-list {
