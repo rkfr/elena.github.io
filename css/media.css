@@ -1,20 +1,21 @@
 @media only screen and (min-width: 540px) {
 	
 	.section-3_img:hover {
-		max-width: 184px;
+		transform: scale(1.1);
 	}
 
 	.section-5_photo:hover {
-		max-width: 294px;
+		transform: scale(1.2);
 	}
 
 	.section-1_image-2:hover {
-		width: 170%;
+		transform: scale(1.3);
 	}
 
 	.section-1_image-1:hover {
-		left: -110px;
-		top: -95px;
+		/*left: -110px;
+		top: -95px;*/
+		transform: translate(-70px, 25px);
 	}
 }
 
